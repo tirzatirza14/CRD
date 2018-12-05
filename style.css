@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.parallax {
+  min-height: 100vh;
+  /* make the background not scroll */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+/*
+header {
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+} */
+
+p {
+  background-color: grey;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+#new-0 {
+  background-image: url(https://i.imgur.com/Gg2LbDh.jpg);
+}
+
+#new-1 {
+  background-image: url(http://croatia.hr/sites/default/files/styles/image_full_width/public/2017-08/02_01_slide_nature.jpg?itok=ItAHmLlp);
+}
+
+#new-2 {
+  background-image: url(https://i.imgur.com/t1qgTNO.gif);
+}
+
+.text-box {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 200, 0.2) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
